@@ -29,5 +29,5 @@ Designed for CORDEX regional climate simulations on rotated grids.
 ## Author
 
 Aikaterini Lyra  
-University of Thessaly  
+Laboratory of Hydrology and Aquatic Systems Analysis, Department of Civil Engineering, School of Engineering, University of Thessaly, 38334 Volos, Greece  
 klyra@uth.gr
