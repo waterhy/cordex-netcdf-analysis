@@ -1,6 +1,6 @@
 # CORDEX NetCDF Time-Series Analysis
 
-A web-based **R-Shiny application** for extracting point time series from CORDEX climate model NetCDF datasets.
+A web-based R-Shiny application for extracting point time series from CORDEX climate model NetCDF datasets.
 
 
 ## Live App
@@ -20,8 +20,8 @@ Try it online here:
 
 ## Methods
 
-- **Nearest Neighbor**: selects the grid cell minimizing squared Euclidean distance.  
-- **Inverse Distance Weighting (IDW)**: uses the four closest grid cells weighted by inverse squared distance (power = 2). Distances are computed in geographic coordinate space.
+- Nearest Neighbor: selects the grid cell minimizing squared Euclidean distance.  
+- Inverse Distance Weighting (IDW): uses the four closest grid cells weighted by inverse squared distance (power = 2). Distances are computed in geographic coordinate space.
 
 ## Intended Use
 
