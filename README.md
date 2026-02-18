@@ -7,7 +7,7 @@ A web-based **R-Shiny application** for extracting point time series from CORDEX
 ## Live App
 
 Try it online here:  
-[Launch Shiny App](https://waterhy-shiny.shinyapps.io/cordex_shiny/)
+[Launch CORDEX NetCDF Time-Series Analysis](https://waterhy-shiny.shinyapps.io/cordex_shiny/)
 
 ---
 
@@ -32,7 +32,7 @@ Try it online here:
 
 ## Intended Use
 
-Designed for CORDEX regional climate simulations on rotated grids.
+Designed for interactive extraction and analysis of point time series from CORDEX NetCDF datasets on rotated grids.
 
 ---
 
