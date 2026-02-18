@@ -1,0 +1,23 @@
+cff-version: 1.0.0
+title: "CORDEX NetCDF Time-Series Analysis"
+message: "If you use this software, please cite it as follows:"
+type: software
+authors:
+  - family-names: "Lyra"
+    given-names: "Aikaterini"
+    affiliation: "Laboratory of Hydrology and Aquatic Systems Analysis, Department of Civil Engineering, School of Engineering, University of Thessaly, 38334 Volos, Greece"
+    email: "klyra@uth.gr"
+repository-code: "https://github.com/waterhy/cordex-netcdf-analysis"
+url: "https://waterhy-shiny.shinyapps.io/cordex_shiny/"
+abstract: "Interactive R Shiny application for extracting and analyzing point time series from rotated CORDEX NetCDF climate model grids using nearest neighbor and IDW interpolation methods."
+keywords:
+  - climate change
+  - CORDEX
+  - NetCDF
+  - Climate models
+  - timeseries
+  - R 
+license: "MIT"
+version: "1.0.0"
+doi: "10.5281/zenodo.18684890"
+date-released: "2026-02-18"
