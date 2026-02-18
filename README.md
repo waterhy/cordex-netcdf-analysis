@@ -1,4 +1,4 @@
-# CORDEX NetCDF Time-Series Extractor
+# CORDEX NetCDF Time-Series Analysis
 
 A web-based Shiny application for extracting point time series from CORDEX climate model NetCDF datasets.
 
