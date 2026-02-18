@@ -1,5 +1,5 @@
 cff-version: 1.0.0
-type: dataset
+type: other
 title: "CORDEX NetCDF Time-Series Analysis"
 message: "If you use this software, please cite it as follows:"
 authors:
