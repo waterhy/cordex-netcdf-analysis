@@ -1,7 +1,6 @@
 cff-version: 1.0.0
 title: "CORDEX NetCDF Time-Series Analysis"
 message: "If you use this software, please cite it as follows:"
-type: software
 authors:
   - family-names: "Lyra"
     given-names: "Aikaterini"
@@ -17,6 +16,7 @@ keywords:
   - Climate models
   - timeseries
   - R 
+publisher: "Zenodo"
 license: "MIT"
 doi: "10.5281/zenodo.18684890"
 date-released: "2026-02-18"
