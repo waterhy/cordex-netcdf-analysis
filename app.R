@@ -9,7 +9,7 @@ library(dplyr)
 options(shiny.maxRequestSize = 500 * 1024^2)
 
 ui <- fluidPage(
-  titlePanel("CORDEX NetCDF Time-Series Extractor"),
+  titlePanel("CORDEX NetCDF Time-Series Analysis"),
   h4("Interactive extraction of point time series from rotated climate model grids"),
   
   sidebarLayout(
@@ -343,3 +343,4 @@ server <- function(input, output, session){
 }
 
 shinyApp(ui, server)
+
