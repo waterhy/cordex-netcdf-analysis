@@ -54,6 +54,14 @@ server <- function(input, output, session){
   
   selected_point <- reactiveVal(NULL)
   idw_points <- reactiveVal(NULL)
+
+  # ---- Longitude Wrapping Helper ----
+  wrap_lon <- function(lon_vals){
+    if(max(lon_vals, na.rm = TRUE) > 180){
+      lon_vals[lon_vals > 180] <- lon_vals[lon_vals > 180] - 360
+    }
+    return(lon_vals)
+  }
   
   # ---- File Info ----
   output$file_info <- renderPrint({
@@ -120,6 +128,8 @@ server <- function(input, output, session){
     lat_vals <- as.vector(ncvar_get(nc, "lat"))
     lon_vals <- as.vector(ncvar_get(nc, "lon"))
     nc_close(nc)
+
+    lon_vals <- wrap_lon(lon_vals)
     
     list(
       lat_vals = lat_vals,
@@ -343,4 +353,5 @@ server <- function(input, output, session){
 }
 
 shinyApp(ui, server)
+
 
